@@ -4,6 +4,7 @@ Configuration and scripts for deploying rke2 in vagrant
 ## Instruction
 `vagrant up` will deploy the following
 
+```
 3 Ubuntu 22.04 Linux VMs in libvirt
 |-RKE2 Cluster with 1 manager and 2 worker nodes
   |-1 RKE2 server
