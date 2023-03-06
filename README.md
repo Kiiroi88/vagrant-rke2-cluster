@@ -1,5 +1,5 @@
 # vagrant-rke2-cluster
-Configuration and scripts for deploying rke2 in vagrant
+Configuration and scripts for deploying rke2 in vagrant libvirt
 
 ## Instruction
 `vagrant up` will deploy the following
@@ -11,4 +11,8 @@ Configuration and scripts for deploying rke2 in vagrant
   |-2 RKE2 nodes. One on each worker node
 ```
 
-The kubeconfg to connect to the cluster from you dev-machine will be delived to your working folder as rke2.yaml
+The kubeconfg to connect to the cluster from you dev-machine will be delived to your working folder as rke2.yaml 
+
+This needs to be copied to ~/.kube/config and change the ip-address to the rke2 server
+
+See: https://docs.rke2.io/cluster_access
